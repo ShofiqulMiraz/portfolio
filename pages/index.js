@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from "next/head";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   return (
@@ -7,9 +8,7 @@ export default function Home() {
         <title>Portfolio | Shofiqul Miraz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <h1>hello next js</h1>
-
+      <NavBar />
     </>
-  )
+  );
 }
