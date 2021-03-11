@@ -21,7 +21,7 @@ const NavBar = () => {
         </Link>
       </li>
       <li className={styles.navlinks} onClick={handleMenuClose}>
-        <Link href="/services">
+        <Link href="/service">
           <a>service</a>
         </Link>
       </li>
@@ -31,8 +31,8 @@ const NavBar = () => {
         </Link>
       </li>
       <li className={styles.navlinks} onClick={handleMenuClose}>
-        <Link href="/services">
-          <a>service</a>
+        <Link href="/projects">
+          <a>projects</a>
         </Link>
       </li>
       <li className={styles.navlinks} onClick={handleMenuClose}>

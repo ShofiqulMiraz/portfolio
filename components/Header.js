@@ -14,13 +14,13 @@ const Header = () => {
           className={styles.profilepic}
         />
         <h2 className={styles.title}>Shofiqul Islam Miraz</h2>
-        <h3 className={styles.profession}>MERN Stack Developer</h3>
+        <h3 className={styles.profession}>Full Stack JavaScript Developer</h3>
         <div className={styles.cta}>
           <a href="/" className={styles.cv}>
             Download CV
           </a>
           <Link href="/contact">
-            <a className={styles.contact}>contact</a>
+            <a className={styles.contact}>contact me</a>
           </Link>
         </div>
       </div>
