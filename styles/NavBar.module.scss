@@ -16,10 +16,11 @@
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(289deg)
     brightness(108%) contrast(105%);
   cursor: pointer;
+  padding: 3px 10px 0 0;
 }
 
 .navlist {
-  background-color: #fff;
+  background-color: #eaeaea;
   position: fixed;
   width: 30vh;
   height: 100vh;
