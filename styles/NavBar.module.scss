@@ -1,4 +1,13 @@
-.nav {
+.navtransparent {
+  padding: 1vh 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.navblack {
   padding: 1vh 15px;
   display: flex;
   justify-content: space-between;
@@ -19,7 +28,7 @@
   padding: 3px 10px 0 0;
 }
 
-.navlist {
+.navlistshow {
   background-color: #eaeaea;
   position: fixed;
   width: 30vh;
@@ -32,7 +41,25 @@
   justify-content: center;
   z-index: 200;
   margin: 0;
+  transition: all 0.5s ease;
 }
+
+.navlisthide {
+  background-color: #eaeaea;
+  position: fixed;
+  width: 30vh;
+  height: 100vh;
+  top: 0;
+  right: -30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  margin: 0;
+  transition: all 0.5s ease;
+}
+
 .navlinks {
   list-style: none;
   a {
