@@ -32,6 +32,9 @@ const NavBar = ({ height }) => {
         <ul
           className={mobilemenuopen ? styles.navlistshow : styles.navlisthide}
         >
+          <div className={styles.menuclose} onClick={handleMenuClose}>
+            <Image src="/close.svg" alt="menuclose" width={25} height={25} />
+          </div>
           <li className={styles.navlinks} onClick={handleMenuClose}>
             <Link href="/">
               <a>Home</a>

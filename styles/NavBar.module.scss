@@ -28,6 +28,13 @@
   padding: 3px 10px 0 0;
 }
 
+.menuclose {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+
 .navlistshow {
   background-color: #eaeaea;
   position: fixed;
