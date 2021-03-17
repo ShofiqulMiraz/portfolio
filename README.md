@@ -1,3 +1,3 @@
 # Peronal Portfolio Website
 
-Production live: [portfolio](https://portfolio-shofiqulmiraz.vercel.app/)
+Production live: [portfolio](https://shofiqul-portfolio.vercel.app/)
