@@ -1,9 +1,6 @@
 .container {
   padding: 5vh 15px;
-  background-image: url("/skill-bg.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #eaeaea42;
 }
 
 .card {
@@ -27,6 +24,7 @@
   text-align: center;
   background-color: #c2e9fb;
   padding: 20px;
+  border-radius: 10px;
 }
 
 .title {
