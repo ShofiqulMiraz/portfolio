@@ -5,7 +5,9 @@ import NavBar from "../components/NavBar";
 import Projects from "../components/Projects";
 import Services from "../components/Services";
 import Skills from "../components/Skills";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
   const [height, setheight] = useState(0);
@@ -18,6 +20,7 @@ export default function Home() {
   };
 
   useEffect(() => {
+    Aos.init({ duration: 1000 });
     handleScroll();
   }, []);
 

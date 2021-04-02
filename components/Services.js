@@ -44,7 +44,7 @@ const Services = () => {
         <SectionTitle title="services" />
         <div className={styles.card}>
           {services.map((service, index) => (
-            <div className={styles.content} key={index}>
+            <div className={styles.content} key={index} data-aos="fade-right">
               <Image
                 src={`/${service.image}`}
                 alt={`service-${index}`}

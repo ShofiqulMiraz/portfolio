@@ -48,7 +48,7 @@ const Skills = () => {
         <SectionTitle title="skills" />
         <div className={styles.card}>
           {skills.map((skill, index) => (
-            <div className={styles.content} key={index}>
+            <div className={styles.content} key={index} data-aos="fade-right">
               <Image
                 src={`/${skill.image}`}
                 alt={`skill-${index}`}
