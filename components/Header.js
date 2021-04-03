@@ -12,22 +12,20 @@ const Header = () => {
           width={140}
           height={140}
           className={styles.profilepic}
-          data-aos="zoom-in"
+          data-aos="fade-down"
         />
-        <h2 className={styles.title} data-aos="fade-right">
+        <h2 className={styles.title} data-aos="fade-down">
           Shofiqul Islam Miraz
         </h2>
-        <h3 className={styles.profession} data-aos="fade-left">
+        <h3 className={styles.profession} data-aos="fade-up">
           Full Stack JavaScript Developer
         </h3>
         <div className={styles.cta} data-aos="fade-up">
-          <a href="/" className={styles.cv} >
+          <a href="/" className={styles.cv}>
             Download CV
           </a>
           <Link href="/contact">
-            <a className={styles.contact} >
-              contact me
-            </a>
+            <a className={styles.contact}>contact me</a>
           </Link>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Contact = () => {
     <>
       <div className={styles.container}>
         <SectionTitle title="contact" />
-        <div className={styles.socialcontainer}>
+        <div className={styles.socialcontainer} data-aos="fade-up">
           {socials.map((social, index) => (
             <a
               href={social.url}
