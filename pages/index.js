@@ -7,7 +7,6 @@ import Services from "../components/Services";
 import Skills from "../components/Skills";
 import { useState, useEffect } from "react";
 import Aos from "aos";
-import "aos/dist/aos.css";
 
 export default function Home() {
   const [height, setheight] = useState(0);

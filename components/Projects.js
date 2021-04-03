@@ -27,7 +27,7 @@ const Projects = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className={styles.imagecontainer} data-aos="zoom-in">
+              <div className={styles.imagecontainer} data-aos="fade-up">
                 <img
                   src={project.image}
                   alt="Avatar"

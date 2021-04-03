@@ -1,7 +1,8 @@
 import "../styles/globals.css";
 import Router from "next/router";
-import NProgress from "nprogress"; //nprogress module
-import "nprogress/nprogress.css"; //styles of nprogress
+import NProgress from "nprogress";
+import "nprogress/nprogress.css";
+import "aos/dist/aos.css";
 
 // spinner disabled
 NProgress.configure({ showSpinner: false });

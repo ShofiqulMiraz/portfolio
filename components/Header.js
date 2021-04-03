@@ -20,7 +20,7 @@ const Header = () => {
         <h3 className={styles.profession} data-aos="fade-left">
           Full Stack JavaScript Developer
         </h3>
-        <div className={styles.cta}>
+        <div className={styles.cta} data-aos="fade-up">
           <a href="/" className={styles.cv} >
             Download CV
           </a>
