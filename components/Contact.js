@@ -4,22 +4,22 @@ import Image from "next/image";
 
 const socials = [
   {
-    image: "/facebook.svg",
+    image: "/contact/facebook.svg",
     url: "https://facebook.com/ShofiqulMiraz/",
     name: "Facebook",
   },
   {
-    image: "/twitter.svg",
+    image: "/contact/twitter.svg",
     url: "https://twitter.com/ShofiqulMiraz",
     name: "twitter",
   },
   {
-    image: "/github-sign.svg",
+    image: "/contact/github-sign.svg",
     url: "https://github.com/ShofiqulMiraz",
     name: "github",
   },
   {
-    image: "/linkedin.svg",
+    image: "/contact/linkedin.svg",
     url: "https://www.linkedin.com/in/shofiqulmiraz/",
     name: "linkedin",
   },

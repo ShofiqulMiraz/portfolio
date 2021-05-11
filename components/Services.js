@@ -6,34 +6,34 @@ const services = [
   {
     title: "WEB DESIGN",
     description: "Get Your Website Design Frame With Modern Design Pattern",
-    image: "web-design.svg",
+    image: "/services/web-design.svg",
   },
   {
     title: "WEB DEVELOPMENT",
     description: "Get Your Website Developed From Scratch With Zero Stress",
-    image: "web-development.svg",
+    image: "/services/web-development.svg",
   },
   {
     title: "24/7 SUPPORT",
     description: "Get Support 24 Hours In A Day, 7 Days In A Week",
-    image: "call-center-agent.svg",
+    image: "/services/call-center-agent.svg",
   },
   {
     title: "100% RESPONSIVE",
     description:
       "Get Mobile-First Cross-Browser And Cross-Device Compatible Website",
-    image: "responsive-design.svg",
+    image: "/services/responsive-design.svg",
   },
   {
     title: "FASTEST TECH STACK",
     description:
       "Get Developed With MERN, Fastest Technology Stack On Planet Earth",
-    image: "fastest-tech.svg",
+    image: "/services/fastest-tech.svg",
   },
   {
     title: "SEO FRIENDLY",
     description: "Get Seo Friendly Website For Your Business Growth",
-    image: "seo-friendly.svg",
+    image: "/services/seo-friendly.svg",
   },
 ];
 
@@ -46,7 +46,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div className={styles.content} key={index} data-aos="fade-up">
               <Image
-                src={`/${service.image}`}
+                src={service.image}
                 alt={`service-${index}`}
                 width={80}
                 height={80}

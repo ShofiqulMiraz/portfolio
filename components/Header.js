@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className={styles.container}>
         <Image
-          src="/profilePic.PNG"
+          src="/profilePic.jpg"
           alt="profilepic"
           width={140}
           height={140}
@@ -21,7 +21,12 @@ const Header = () => {
           Full Stack JavaScript Developer
         </h3>
         <div className={styles.cta} data-aos="fade-up">
-          <a href="/" className={styles.cv}>
+          <a
+            href="https://docs.google.com/document/d/1Y_ePnAith45FC55bBZ2NS4lB0RhLSWrskaU-PMTIjqI/edit?usp=sharing"
+            className={styles.cv}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Download CV
           </a>
           <Link href="/contact">

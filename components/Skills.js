@@ -4,39 +4,39 @@ import Image from "next/image";
 
 const skills = [
   {
-    image: `javascript.svg`,
+    image: `/skills/javascript.svg`,
     name: "Javascript",
   },
   {
-    image: `react.svg`,
+    image: `/skills/react.svg`,
     name: "React Js",
   },
   {
-    image: `redux.svg`,
+    image: `/skills/redux.svg`,
     name: "Redux",
   },
   {
-    image: `nextjs.svg`,
+    image: `/skills/nextjs.svg`,
     name: "Next Js",
   },
   {
-    image: `nodejs.svg`,
+    image: `/skills/nodejs.svg`,
     name: "Node Js",
   },
   {
-    image: `expressjs.svg`,
+    image: `/skills/expressjs.svg`,
     name: "Express Js",
   },
   {
-    image: `mongodb.svg`,
+    image: `/skills/mongodb.svg`,
     name: "MongoDB",
   },
   {
-    image: `git.svg`,
+    image: `/skills/git.svg`,
     name: "Git",
   },
   {
-    image: `github.svg`,
+    image: `/skills/github.svg`,
     name: "Github",
   },
 ];
@@ -50,8 +50,8 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div className={styles.content} key={index} data-aos="fade-up">
               <Image
-                src={`/${skill.image}`}
-                alt={`skill-${index}`}
+                src={skill.image}
+                alt={skill.name}
                 width={80}
                 height={80}
               />

@@ -3,14 +3,19 @@ import SectionTitle from "./SectionTitle";
 
 const projects = [
   {
-    image: "/cs-alert.png",
+    image: "/projects/cs-alert.png",
     name: "cs-alert",
-    website: "https://cs-alert-front.vercel.app/",
+    website: "https://cs-alert-front.vercel.app",
   },
   {
-    image: "/tesla.png",
-    name: "tesla",
-    website: "https://tesla-clone-seven.vercel.app/",
+    image: "/projects/startup-landing.png",
+    name: "startup-landing",
+    website: "https://startup-landing-nine.vercel.app",
+  },
+  {
+    image: "/projects/tesla.png",
+    name: "tesla-clone",
+    website: "https://tesla-clone-seven.vercel.app",
   },
 ];
 
@@ -30,7 +35,7 @@ const Projects = () => {
               <div className={styles.imagecontainer} data-aos="fade-up">
                 <img
                   src={project.image}
-                  alt="Avatar"
+                  alt="Project Image"
                   className={styles.image}
                 />
                 <div className={styles.imageoverlay}>
