@@ -3,22 +3,22 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const projects = [
   {
-    image: "/Projects/startup-landing.png",
+    image: "/projects/startup-landing.png",
     name: "startup-landing",
     website: "https://startup-landing-nine.vercel.app",
   },
   {
-    image: "/Projects/cs-alert.png",
+    image: "/projects/cs-alert.png",
     name: "cs-alert",
     website: "https://cs-alert-front.vercel.app",
   },
   {
-    image: "/Projects/rest-countries.png",
+    image: "/projects/rest-countries.png",
     name: "rest-countries",
     website: "https://rest-countries-api-ashen.vercel.app",
   },
   {
-    image: "/Projects/tesla.png",
+    image: "/projects/tesla.png",
     name: "tesla-clone",
     website: "https://tesla-clone-seven.vercel.app",
   },

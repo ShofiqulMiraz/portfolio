@@ -4,39 +4,39 @@ import Image from "next/image";
 
 const skills = [
   {
-    image: `/Skills/javascript.svg`,
+    image: `/skills/javascript.svg`,
     name: "Javascript",
   },
   {
-    image: `/Skills/react.svg`,
+    image: `/skills/react.svg`,
     name: "React Js",
   },
   {
-    image: `/Skills/redux.svg`,
+    image: `/skills/redux.svg`,
     name: "Redux",
   },
   {
-    image: `/Skills/nextjs.svg`,
+    image: `/skills/nextjs.svg`,
     name: "Next Js",
   },
   {
-    image: `/Skills/nodejs.svg`,
+    image: `/skills/nodejs.svg`,
     name: "Node Js",
   },
   {
-    image: `/Skills/expressjs.svg`,
+    image: `/skills/expressjs.svg`,
     name: "Express Js",
   },
   {
-    image: `/Skills/mongodb.svg`,
+    image: `/skills/mongodb.svg`,
     name: "MongoDB",
   },
   {
-    image: `/Skills/git.svg`,
+    image: `/skills/git.svg`,
     name: "Git",
   },
   {
-    image: `/Skills/github.svg`,
+    image: `/skills/github.svg`,
     name: "Github",
   },
 ];

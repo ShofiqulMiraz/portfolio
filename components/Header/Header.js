@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className={styles.container}>
       <Image
-        src="/Header/profilePic.jpg"
+        src="/header/profilePic.jpg"
         alt="profilepic"
         width={140}
         height={140}
@@ -21,7 +21,7 @@ export default function Header() {
       </h3>
       <div className={styles.cta} data-aos="fade-up" data-aos-delay="300">
         <a
-          href="/Header/Resume_Shofiqul.pdf"
+          href="/header/Resume_Shofiqul.pdf"
           className={styles.cv}
           target="_blank"
           rel="noopener noreferrer"
