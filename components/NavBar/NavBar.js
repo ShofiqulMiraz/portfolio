@@ -45,19 +45,14 @@ export default function NavBar() {
           setmobilemenuopen(false);
         }}
       >
-        <Image src="/navbar/logo.svg" alt="logo" width={120} height={32} />
+        <Image src="/logo.svg" alt="logo" width={120} height={32} />
       </div>
       <div className={styles.menuopen} onClick={handleMenuOpen}>
-        <Image src="/navbar/menu.svg" alt="menuopen" width={29} height={29} />
+        <Image src="/menu.svg" alt="menuopen" width={29} height={29} />
       </div>
       <ul className={mobilemenuopen ? styles.navlistshow : styles.navlisthide}>
         <div className={styles.menuclose} onClick={handleMenuClose}>
-          <Image
-            src="/navbar/close.svg"
-            alt="menuclose"
-            width={25}
-            height={25}
-          />
+          <Image src="/close.svg" alt="menuclose" width={25} height={25} />
         </div>
         {routes.map((route, index) => (
           <li className={styles.navlinks} onClick={handleMenuClose} key={index}>
