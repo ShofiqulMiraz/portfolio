@@ -1,6 +1,6 @@
 import Head from "next/head";
-import NavBar from "../components/NavBar";
-import Skills from "../components/Skills";
+import NavBar from "../components/NavBar/NavBar";
+import Skills from "../components/Skills/Skills";
 
 export default function Skill() {
   return (

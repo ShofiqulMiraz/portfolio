@@ -1,6 +1,6 @@
 import Head from "next/head";
-import NavBar from "../components/NavBar";
-import Services from "../components/Services";
+import NavBar from "../components/NavBar/NavBar";
+import Services from "../components/Services/Services";
 
 export default function Service() {
   return (

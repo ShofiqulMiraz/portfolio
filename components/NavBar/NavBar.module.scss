@@ -1,48 +1,45 @@
-.navtransparent {
-  padding: 1vh 15px;
+.nav {
+  padding: 1vh 1.5rem;
   display: flex;
   justify-content: space-between;
-  background-color: transparent;
+  background-color: var(--box-bg);
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 100;
-}
-.navblack {
-  padding: 1vh 15px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #262626;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+  box-shadow: 0 2px 4px 0 #00000033;
+  @media only screen and (min-width: 90em) {
+    justify-content: space-around;
+  }
 }
 
 .logo {
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menuopen {
-  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(289deg)
-    brightness(108%) contrast(105%);
   cursor: pointer;
-  padding: 3px 10px 0 0;
-  @media only screen and (min-width: 700px) {
+  padding: 3px 1rem 0 0;
+  @media only screen and (min-width: 43.75em) {
     display: none;
   }
 }
 
 .menuclose {
   position: absolute;
-  top: 15px;
-  right: 20px;
+  top: 1.5rem;
+  right: 2rem;
   cursor: pointer;
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 43.75em) {
     display: none;
   }
 }
 
 .navlistshow {
-  background-color: #eaeaea;
+  background-color: var(--box-bg);
   position: fixed;
   width: 30vh;
   height: 100vh;
@@ -55,20 +52,17 @@
   z-index: 200;
   margin: 0;
   transition: all 0.5s ease;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 43.75em) {
     display: none;
   }
 }
 
 .navlisthide {
-  background-color: #eaeaea;
   position: fixed;
   width: 30vh;
   height: 100vh;
   top: 0;
-  right: -30rem;
+  right: -35rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,7 +70,7 @@
   z-index: 200;
   margin: 0;
   transition: all 0.5s ease;
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 43.75em) {
     position: initial;
     width: initial;
     height: initial;
@@ -93,18 +87,14 @@
   a {
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.8rem;
     text-decoration: none;
-    color: #000;
-    @media only screen and (min-width: 700px) {
-      color: #fff;
-    }
   }
   &:not(:last-child) {
-    margin-bottom: 10px;
-    @media only screen and (min-width: 700px) {
+    margin-bottom: 1rem;
+    @media only screen and (min-width: 43.75em) {
       margin-bottom: 0;
-      margin-right: 30px;
+      margin-right: 3rem;
     }
   }
 }

@@ -1,0 +1,40 @@
+.container {
+  padding: 5vh 1.5rem;
+}
+
+.card {
+  max-width: 96rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 2rem;
+  padding: 0 0 2rem 0;
+  @media only screen and (max-width: 18.75em) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: var(--box-bg);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+  border-radius: 0.7rem;
+}
+
+.title {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 1.4rem;
+}

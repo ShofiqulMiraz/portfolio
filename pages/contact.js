@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Contact from "../components/Contact";
-import NavBar from "../components/NavBar";
+import Contact from "../components/Contact/Contact";
+import NavBar from "../components/NavBar/NavBar";
 
 export default function Home() {
   return (

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "px-to-rem.px-per-rem": 10
+}

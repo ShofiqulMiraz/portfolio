@@ -1,6 +1,6 @@
 import Head from "next/head";
-import NavBar from "../components/NavBar";
-import Projects from "../components/Projects";
+import NavBar from "../components/NavBar/NavBar";
+import Projects from "../components/Projects/Projects";
 
 export default function Project() {
   return (
