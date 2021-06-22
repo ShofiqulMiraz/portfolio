@@ -12,6 +12,11 @@ export default function Home() {
       <Head>
         <title>Portfolio | Shofiqul Miraz</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Portfolio | Shofiqul Miraz" />
+        <meta
+          property="og:image"
+          content="blob:https://vercel.com/15734bf2-0586-464b-9353-72dd86a27f6f"
+        />
       </Head>
       <NavBar />
       <Header />

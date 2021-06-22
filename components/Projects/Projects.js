@@ -1,5 +1,6 @@
 import styles from "./Projects.module.scss";
 import SectionTitle from "../SectionTitle/SectionTitle";
+import Image from "next/image";
 
 const projects = [
   {
@@ -22,6 +23,11 @@ const projects = [
     name: "tesla-clone",
     website: "https://tesla-clone-seven.vercel.app",
   },
+  {
+    image: "/projects/admin-dashboard.png",
+    name: "dashboard-pr",
+    website: "https://admin-dashboard-pr.vercel.app",
+  },
 ];
 
 export default function Projects() {
@@ -38,10 +44,12 @@ export default function Projects() {
             rel="noopener noreferrer"
           >
             <div className={styles.imagecontainer} data-aos="fade-up">
-              <img
+              <Image
                 src={project.image}
                 alt="Project Image"
-                className={styles.image}
+                width={408}
+                height={256}
+                layout="responsive"
               />
               <div className={styles.imageoverlay}>
                 <div className={styles.projectname}>{project.name}</div>
