@@ -15,7 +15,7 @@ export default function Home() {
         <meta property="og:title" content="Portfolio | Shofiqul Miraz" />
         <meta
           property="og:image"
-          content="blob:https://vercel.com/15734bf2-0586-464b-9353-72dd86a27f6f"
+          content="https://shofiqul-portfolio.vercel.app/projects/main-site.png"
         />
       </Head>
       <NavBar />
