@@ -17,7 +17,7 @@ export default function Header() {
         Shofiqul Islam Miraz
       </h2>
       <h3 className={styles.profession} data-aos="fade-up">
-        Full Stack JavaScript Developer
+        Software Developer, Elevate Next Ltd.
       </h3>
       <div className={styles.cta} data-aos="fade-up" data-aos-delay="300">
         <a

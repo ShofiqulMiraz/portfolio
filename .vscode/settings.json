@@ -1,6 +1,8 @@
 {
-  "files.associations": {
-    "*.js": "javascriptreact"
-  },
-  "px-to-rem.px-per-rem": 10
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "cSpell.words": ["nprogress"],
+    "editor.wordWrap": "on",
+    "prettier.tabWidth": 4
 }
