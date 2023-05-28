@@ -5,6 +5,7 @@ import NProgress from "nprogress";
 import "nprogress/nprogress.css";
 import { useEffect } from "react";
 import "../styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 // spinner disabled
 NProgress.configure({ showSpinner: false });
@@ -19,5 +20,10 @@ export default function MyApp({ Component, pageProps }) {
         Aos.init({ duration: 1000 });
     }, []);
 
-    return <Component {...pageProps} />;
+    return (
+        <>
+            <Component {...pageProps} />
+            <Analytics />
+        </>
+    );
 }
