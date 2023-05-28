@@ -1,38 +1,38 @@
 .container {
-  padding: 5vh 1.5rem;
+    padding: 5vh 1.5rem;
 }
 
 .card {
-  max-width: 96rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: 2rem;
-  @media only screen and (max-width: 56.25em) {
-    padding: 0 0 3.5rem 0;
-  }
-  @media only screen and (max-width: 12.5em) {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
+    max-width: 96rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 2rem;
+    @media only screen and (max-width: 56.25em) {
+        padding: 0 0 3.5rem 0;
+    }
+    @media only screen and (max-width: 12.5em) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: var(--box-bg);
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--box-bg);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .title {
-  font-size: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 0.5rem;
-  font-weight: 400;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-weight: 400;
 }

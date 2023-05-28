@@ -1,12 +1,13 @@
 .sectiontitle {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1875rem;
-  font-size: 4rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  font-weight: 400;
-  @media only screen and (max-width: 16.25em) {
-    font-size: 3rem;
-  }
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+    font-size: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: 400;
+
+    @media only screen and (max-width: 16.25em) {
+        font-size: 3rem;
+    }
 }

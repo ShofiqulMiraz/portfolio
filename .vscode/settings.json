@@ -2,7 +2,11 @@
     "files.associations": {
         "*.js": "javascriptreact"
     },
-    "cSpell.words": ["nprogress"],
+    "cSpell.words": [
+        "Miraz",
+        "nprogress",
+        "Shofiqul"
+    ],
     "editor.wordWrap": "on",
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
 }
