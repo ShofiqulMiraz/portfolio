@@ -3,6 +3,8 @@
         "*.js": "javascriptreact"
     },
     "cSpell.words": [
+        "imagecontainer",
+        "imageoverlay",
         "Miraz",
         "nprogress",
         "Shofiqul"

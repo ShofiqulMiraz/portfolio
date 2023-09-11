@@ -24,8 +24,8 @@ const services = [
         image: "/services/responsive-design.svg",
     },
     {
-        title: "FASTEST TECH STACK",
-        description: "Get Developed With MERN, Fastest Technology Stack On Planet Earth",
+        title: "PROPER TECH STACK",
+        description: "Get Your Website Developed With Proper Tech Stack",
         image: "/services/fastest-tech.svg",
     },
     {

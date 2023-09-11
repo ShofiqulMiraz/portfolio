@@ -36,13 +36,7 @@ export default function Projects() {
             <SectionTitle title="projects" />
             <div className={styles.card}>
                 {projects.map((project, index) => (
-                    <a
-                        href={project.website}
-                        key={index}
-                        className={styles.content}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href={project.website} key={index} className={styles.content} target="_blank" rel="noopener noreferrer">
                         <div className={styles.imagecontainer} data-aos="fade-up">
                             <div className={styles.image}>
                                 <Image
@@ -53,7 +47,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div className={styles.imageoverlay}>
-                                <div className={styles.projectname}>{project.name}</div>
+                                <div className={styles.project_name}>{project.name}</div>
                             </div>
                         </div>
                     </a>
