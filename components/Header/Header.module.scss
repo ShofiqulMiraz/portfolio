@@ -9,9 +9,10 @@
     background-color: var(--box-bg);
 }
 
-.profilepic {
+.profile_pic {
     border-radius: 8rem;
     border: 6px solid var(--white) !important;
+    object-fit: cover;
 }
 
 .title {

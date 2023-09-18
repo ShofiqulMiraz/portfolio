@@ -5,14 +5,7 @@ import styles from "./Header.module.scss";
 export default function Header() {
     return (
         <div className={styles.container}>
-            <Image
-                src="/profilePic.jpg"
-                alt="profilepic"
-                width={140}
-                height={140}
-                className={styles.profilepic}
-                data-aos="fade-down"
-            />
+            <Image src="/profilePic.jpg" alt="profile_pic" width={140} height={140} className={styles.profile_pic} data-aos="fade-down" />
             <h2 className={styles.title} data-aos="fade-down">
                 Shofiqul Islam Miraz
             </h2>
