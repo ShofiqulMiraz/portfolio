@@ -16,8 +16,8 @@ export default function Header() {
                 <a href="/Resume_Shofiqul.pdf" className={styles.cv} target="_blank" rel="noopener noreferrer">
                     Download CV
                 </a>
-                <Link href="/projects" className={styles.projects}>
-                    See Projects
+                <Link href="/services" className={styles.services}>
+                    See Services
                 </Link>
             </div>
         </div>

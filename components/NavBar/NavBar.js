@@ -18,10 +18,6 @@ const routes = [
         label: "skills",
     },
     {
-        path: "/projects",
-        label: "projects",
-    },
-    {
         path: "/contact",
         label: "contact",
     },
