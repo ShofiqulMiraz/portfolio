@@ -10,7 +10,7 @@ export default function Header() {
                 Shofiqul Islam Miraz
             </h2>
             <h3 className={styles.profession} data-aos="fade-up">
-                Software Developer, Elevate Next Ltd.
+                Software Developer, CodeNine Limited.
             </h3>
             <div className={styles.cta} data-aos="fade-up" data-aos-delay="300">
                 <a href="/Resume_Shofiqul.pdf" className={styles.cv} target="_blank" rel="noopener noreferrer">
