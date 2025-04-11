@@ -25,12 +25,12 @@ const routes = [
 
 export default function NavBar() {
     const router = useRouter();
-    const [mobilemenuopen, setmobilemenuopen] = useState(false);
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const handleMenuOpen = () => {
-        setmobilemenuopen(true);
+        setMobileMenuOpen(true);
     };
     const handleMenuClose = () => {
-        setmobilemenuopen(false);
+        setMobileMenuOpen(false);
     };
     return (
         <nav className={styles.nav}>
@@ -38,20 +38,20 @@ export default function NavBar() {
                 className={styles.logo}
                 onClick={() => {
                     router.push("/");
-                    setmobilemenuopen(false);
+                    setMobileMenuOpen(false);
                 }}
             >
                 <Image src="/logo.svg" alt="logo" width={120} height={32} priority />
             </div>
-            <div className={styles.menuopen} onClick={handleMenuOpen}>
-                <Image src="/menu.svg" alt="menuopen" width={29} height={29} />
+            <div className={styles.menu_open} onClick={handleMenuOpen}>
+                <Image src="/menu.svg" alt="menu_open" width={29} height={29} />
             </div>
-            <ul className={mobilemenuopen ? styles.navlistshow : styles.navlisthide}>
-                <div className={styles.menuclose} onClick={handleMenuClose}>
-                    <Image src="/close.svg" alt="menuclose" width={25} height={25} />
+            <ul className={mobileMenuOpen ? styles.nav_list_show : styles.nav_list_hide}>
+                <div className={styles.menu_close} onClick={handleMenuClose}>
+                    <Image src="/close.svg" alt="menu_close" width={25} height={25} />
                 </div>
                 {routes.map((route, index) => (
-                    <li className={styles.navlinks} onClick={handleMenuClose} key={index}>
+                    <li className={styles.nav_links} onClick={handleMenuClose} key={index}>
                         <Link href={route.path}>{route.label}</Link>
                     </li>
                 ))}

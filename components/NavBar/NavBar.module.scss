@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.menuopen {
+.menu_open {
     cursor: pointer;
     padding: 3px 1rem 0 0;
     @media only screen and (min-width: 43.75em) {
@@ -28,7 +28,7 @@
     }
 }
 
-.menuclose {
+.menu_close {
     position: absolute;
     top: 1.5rem;
     right: 2rem;
@@ -38,7 +38,7 @@
     }
 }
 
-.navlistshow {
+.nav_list_show {
     background-color: var(--box-bg);
     position: fixed;
     width: 30vh;
@@ -57,7 +57,7 @@
     }
 }
 
-.navlisthide {
+.nav_list_hide {
     position: fixed;
     width: 30vh;
     height: 100vh;
@@ -82,7 +82,7 @@
     }
 }
 
-.navlinks {
+.nav_links {
     list-style: none;
     a {
         text-transform: uppercase;
