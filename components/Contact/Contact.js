@@ -29,10 +29,10 @@ export default function Contact() {
     return (
         <div className={styles.container}>
             <SectionTitle title="contact" />
-            <div className={styles.socialcontainer} data-aos="fade-up">
+            <div className={styles.social_container} data-aos="fade-up">
                 {socials.map((social, index) => (
                     <div className={styles.contact} key={index}>
-                        <a href={social.url} className={styles.contactbtn} target="_blank" rel="noopener noreferrer">
+                        <a href={social.url} className={styles.contact_btn} target="_blank" rel="noopener noreferrer">
                             <Image
                                 src={social.image}
                                 alt={social.name}
