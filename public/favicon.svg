@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#7c5cff" />
+            <stop offset="1" stop-color="#4b2bd6" />
+        </linearGradient>
+        <linearGradient id="text" x1="0" y1="0" x2="0" y2="64" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffffff" />
+            <stop offset="1" stop-color="#e9e2ff" />
+        </linearGradient>
+    </defs>
+    <rect width="64" height="64" rx="16" fill="url(#bg)" />
+    <text
+        x="32"
+        y="44"
+        font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+        font-weight="800"
+        font-size="30"
+        text-anchor="middle"
+        letter-spacing="-1"
+        fill="url(#text)"
+    >SM</text>
+</svg>

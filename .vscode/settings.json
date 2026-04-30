@@ -1,14 +1,31 @@
 {
-    "files.associations": {
-        "*.js": "javascriptreact"
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.biome": "explicit",
+        "source.organizeImports.biome": "explicit"
     },
-    "cSpell.words": [
-        "imagecontainer",
-        "imageoverlay",
-        "Miraz",
-        "nprogress",
-        "Shofiqul"
-    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
     "editor.wordWrap": "on",
-    "prettier.tabWidth": 4,
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "cSpell.words": ["Miraz", "Shofiqul", "Puretalk", "Codenine", "Nexa", "Barishal"]
 }
