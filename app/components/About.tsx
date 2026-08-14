@@ -4,7 +4,7 @@ import { education, profile } from "~/data/portfolio";
 import { Section } from "./Section";
 
 const stats = [
-    { value: "4+", label: "Years building products" },
+    { value: "5+", label: "Years building products" },
     { value: "20+", label: "Apps & services shipped" },
     { value: "∞", label: "Bugs squashed" },
 ];

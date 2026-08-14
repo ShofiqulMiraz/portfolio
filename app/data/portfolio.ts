@@ -9,7 +9,7 @@ export const profile = {
     profileImage: "/profilePic.jpg",
     tagline: "I build performant, full-stack web and mobile products — from API to pixel.",
     summary:
-        "Full-stack software developer with 4+ years of experience shipping production web, mobile, and AI-driven applications. I specialize in TypeScript, React and Python — turning fuzzy product requirements into reliable, well-tested systems that scale.",
+        "Full-stack software developer with 5+ years of experience shipping production web, mobile, and AI-driven applications. I specialize in TypeScript, React and Python — turning fuzzy product requirements into reliable, well-tested systems that scale.",
 };
 
 export type Experience = {
@@ -57,7 +57,7 @@ export const experiences: Experience[] = [
     },
     {
         role: "Freelance Software Developer",
-        company: "Fiverr",
+        company: "Independent",
         start: "2021",
         end: null,
         highlights: [
